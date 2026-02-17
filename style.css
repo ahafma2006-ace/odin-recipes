@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0  ;
+}
+
+body {
+    background-image: url("../recipe.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    color: rgb(126, 113, 113);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px ;
+    padding-top: 80px ;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 80px;
+    background: rgba(97, 72, 72, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(red, green, blue, 0.2 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px  ;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 300px;
+    position: relative;
+}
+
+.card {
+    background-color: #241818;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow:0 8px 16px rgba(0, 0, 0, 0.2) ;
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+
+}
+
+.card-content {
+    padding: 15px;
+
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: #dfc2c2;
+    text-align: center;
+
+}

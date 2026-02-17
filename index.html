@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset ="UTF-8">
-    <head>
+<meta charset ="UTF-8">
+<head>
+        <link rel="stylesheet" href="style.css"/>
         <title>The Odin Project</title>
-    </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <a href="recipes/milkshake.html"> Milkshake</a><br>
-        <a href="recipes/cookies.html"> Chocolate Chip Cookies</a><br>
-        <a href="recipes/butterchicken.html"> Butter Chicken</a><br>
-        
-
-    </body>
+</head>
+<body>
+        <nav>
+            <div class="logo-name" style="color: rgb(10, 76, 4); font-weight: bold; margin-left: 20px; font-size: 54px;">MiniCook: The Odin Recipes</div>
+        </nav>
+        <div class="card-container">
+            <a href="recipes/milkshake.html" class="card-link"> 
+                <div class="card">
+                    <img src="../recipes/images/lil-logo.jpg" alt="Milkshake image" class="card-image">
+                    <div class="card-content">
+                        <h2 class="card-title"> Milkshake Recipe </h2>
+                    </div>       
+                </div>  
+            </a>      
+            <a href="recipes/cookies.html"> 
+                <div class="card">
+                    <img src="../recipes/images/cookies.jpg" alt="Cookies Image" class="card-image">
+                    <div class="card-content">
+                        <h2 class="card-title"> Chocolate Chip Cookies Recipe </h2>
+                    </div>
+                </div> 
+            </a>       
+            <a href="recipes/butterchicken.html">
+                <div class="card">
+                    <img src="../recipes/images/chicken.jpg" alt="Chicken pot image" class="card-image">
+                    <div class="card-content">
+                        <h2 class="card-title"> Butter Chicken Recipe </h2>
+                    </div>
+                </div> 
+            </a>       
+        </div>    
+</body>
 </html>
